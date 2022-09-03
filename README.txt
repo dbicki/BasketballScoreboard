@@ -1,1 +1,0 @@
-The solo project was done using Scrimba.
