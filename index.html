@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div>
+              <h1>HOME</h1>
+                <div class="home-score">
+                  <div class="one">
+                
+                    <h2 class="points" id="count-el">0</h2>
+                     <p class="pts-shadow">000</p>
+                  </div>
+                </div>
+
+                <div id="buttonshome">
+                <button onclick="plusone()">+1</button>
+                <button onclick="plustwo()">+2</button>
+                <button onclick="plusthree()">+3</button>
+              </div>
+            </div>
+                    <div id="gamebutton">
+            <button id="thegamebutton" onclick="newGame()">New Game</button>
+          </div>
+            <div>
+                <h1>GUEST</h1>
+                <div class="guest-score">
+                  <div class="two">
+                <h2 class="points" id="gcount-el">0</h2>
+                     <p class="pts-shadow2">000</p>
+                    </div>
+                </div>
+              <div id="buttonsaway">
+                <button id="one-guest" onclick="gplusone()">+1</button>
+                <button onclick="gplustwo()">+2</button>
+                <button onclick="gplusthree()">+3</button>
+              </div>
+    
+      
+        <script src="script.js"></script>
+    </body>
+
+</html>
